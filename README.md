@@ -139,7 +139,7 @@ Follow these steps to set up and run GuitarHub locally:
    ```bash
    git clone https://github.com/X-XENDROME-X/GuitarHub.git
    cd GuitarHub
-````
+   ```
 
 2. **Set up the backend environment:**
 
