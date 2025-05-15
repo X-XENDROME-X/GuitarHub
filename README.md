@@ -8,21 +8,6 @@ GuitarHub is a dynamic, full-stack web application crafted for guitar enthusiast
 
 ---
 
-## 📚 Table of Contents
-
-- [About GuitarHub](#about-guitarhub)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Pages Overview](#pages-overview)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## 🧭 About GuitarHub
 
 GuitarHub serves as a centralized platform where guitar learners and enthusiasts can access structured learning materials, share knowledge, and engage with a like-minded community. Unlike static websites, GuitarHub offers interactive features such as a community discussion board and a contact form, fostering collaboration and direct communication. The platform combines theoretical knowledge with practical engagement, making it an ideal tool for both beginners and advanced players.
