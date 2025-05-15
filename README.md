@@ -56,7 +56,6 @@ GuitarHub serves as a centralized platform where guitar learners and enthusiasts
 **Development Tools:**
 
 - **Git:** Version control system for managing code changes and collaboration.
-- **VSCode:** Integrated development environment for writing, testing, and debugging code.
 
 ---
 
@@ -126,7 +125,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-- A [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account to set up a free database cluster.
+- A [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account to set up database cluster.
 
 ---
 
