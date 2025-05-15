@@ -41,7 +41,7 @@ Backend API: https://guitarhub-backend-631049126756.us-central1.run.app
 
 - **Docker:** Platform for containerizing the application, ensuring consistency across different environments.
 - **Docker Compose:** Tool for defining and running multi-container applications (frontend, backend, and database).
-- **Google Cloud Run:** Serverless container hosting for both frontend and backend.
+- **Google Cloud Run:** Container hosting for both frontend and backend.
 
 **DevOps & Deployment:**
 - CI/CD principles with containerization, Cloud Build integration, and Cloud Run deployments.
