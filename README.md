@@ -4,13 +4,21 @@
   <img src="public/images/logo.png" alt="GuitarHub Logo" width="300" />
 </p>
 
-GuitarHub is a dynamic, full-stack web application crafted for guitar enthusiasts. It offers a rich blend of educational resources, community interaction, and practical tools. Built using the MERN stack—MongoDB, Express, React, and Node.js—and containerized with Docker, GuitarHub showcases modern web development practices, RESTful API design, database integration, and responsive design.
+GuitarHub is a dynamic, full-stack web application crafted for guitar enthusiasts. It offers a rich blend of educational resources, community interaction, and practical tools. Built using the MERN stack—MongoDB, Express, React, and Node.js—and containerized with Docker and deployed via Google Cloud, GuitarHub showcases modern web development practices, RESTful API design, database integration, and responsive design.
 
 ---
 
 ## 🧭 About GuitarHub
 
 GuitarHub serves as a centralized platform where guitar learners and enthusiasts can access structured learning materials, share knowledge, and engage with a like-minded community. Unlike static websites, GuitarHub offers interactive features such as a community discussion board and a contact form, fostering collaboration and direct communication. The platform combines theoretical knowledge with practical engagement, making it an ideal tool for both beginners and advanced players.
+
+---
+
+## 🚀 Live Demo
+
+Frontend: https://guitarhub-frontend-631049126756.us-central1.run.app
+
+Backend API: https://guitarhub-backend-631049126756.us-central1.run.app
 
 ---
 
@@ -29,10 +37,14 @@ GuitarHub serves as a centralized platform where guitar learners and enthusiasts
 - **Express:** Minimal web framework for building RESTful APIs.
 - **MongoDB Atlas:** Cloud-hosted NoSQL database for storing discussion posts, contact messages, and other dynamic data.
 
-**Containerization:**
+**Containerization & Hosting:**
 
 - **Docker:** Platform for containerizing the application, ensuring consistency across different environments.
 - **Docker Compose:** Tool for defining and running multi-container applications (frontend, backend, and database).
+- **Google Cloud Run:** Serverless container hosting for both frontend and backend.
+
+**DevOps & Deployment:**
+- CI/CD principles with containerization, Cloud Build integration, and Cloud Run deployments.
 
 **Web Server:**
 
@@ -51,6 +63,7 @@ GuitarHub serves as a centralized platform where guitar learners and enthusiasts
 - **Contact Form:** Enables users to send messages or feedback directly to the site maintainers.
 - **Learning Resources:** Provides structured lessons, chord diagrams, and multimedia content (videos, PDFs) to support self-paced learning.
 - **Containerized Setup:** Entire application is Dockerized, allowing for easy local development and consistent environments across machines.
+- **Google Cloud Deployment:** Live hosting with auto‑scaling and efficient resource usage.
 
 ---
 
