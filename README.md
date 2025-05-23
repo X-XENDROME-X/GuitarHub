@@ -53,8 +53,9 @@ Backend API: https://guitarhub-backend-631049126756.us-central1.run.app
 - **Nginx:** High-performance web server used to serve the React frontend efficiently.
 
 **Development Tools:**
-
 - **Git:** Version control system for managing code changes and collaboration.
+- **Google Cloud CLI**: Command-line interface for Google Cloud resource management
+- **npm**: Package manager for JavaScript dependencies
 
 ---
 
