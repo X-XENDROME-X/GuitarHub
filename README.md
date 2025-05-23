@@ -4,7 +4,7 @@
   <img src="public/images/logo.png" alt="GuitarHub Logo" width="300" />
 </p>
 
-GuitarHub is a dynamic, full-stack web application crafted for guitar enthusiasts. It offers a rich blend of educational resources, community interaction, and practical tools. Built using the MERN stack—MongoDB, Express, React, and Node.js—and containerized with Docker and deployed via Google Cloud, GuitarHub showcases modern web development practices, RESTful API design, database integration, and responsive design.
+GuitarHub is a dynamic, full-stack web application crafted for guitar enthusiasts. It offers a rich blend of educational resources, community interaction, and practical tools. Built using the MERN stack—MongoDB, Express, React, and Node.js—and containerized with Docker and deployed on Google Cloud using Cloud Run, Container Registry, and Cloud Build. GuitarHub showcases modern web development practices, RESTful API design, database integration, responsive design, and cloud-native deployment strategies.
 
 ---
 
@@ -37,11 +37,13 @@ Backend API: https://guitarhub-backend-631049126756.us-central1.run.app
 - **Express:** Minimal web framework for building RESTful APIs.
 - **MongoDB Atlas:** Cloud-hosted NoSQL database for storing discussion posts, contact messages, and other dynamic data.
 
-**Containerization & Hosting:**
+**Cloud & DevOps:**
 
 - **Docker:** Platform for containerizing the application, ensuring consistency across different environments.
 - **Docker Compose:** Tool for defining and running multi-container applications (frontend, backend, and database).
-- **Google Cloud Run:** Container hosting for both frontend and backend.
+- **Google Cloud Run:** Serverless platform for deploying and scaling containerized applications (frontend and backend).
+- **Google Container Registry:** Secure storage and management of Docker images used for deployments.
+- **Google Cloud Build:** Automates the build and deployment pipeline, ensuring efficient CI/CD workflows.
 
 **DevOps & Deployment:**
 - CI/CD principles with containerization, Cloud Build integration, and Cloud Run deployments.
@@ -63,7 +65,7 @@ Backend API: https://guitarhub-backend-631049126756.us-central1.run.app
 - **Contact Form:** Enables users to send messages or feedback directly to the site maintainers.
 - **Learning Resources:** Provides structured lessons, chord diagrams, and multimedia content (videos, PDFs) to support self-paced learning.
 - **Containerized Setup:** Entire application is Dockerized, allowing for easy local development and consistent environments across machines.
-- **Google Cloud Deployment:** Live hosting with auto‑scaling and efficient resource usage.
+- **Google Cloud Deployment:** Live hosting with auto-scaling, efficient resource usage, and CI/CD integration using Cloud Run, Container Registry, and Cloud Build.
 
 ---
 
@@ -218,6 +220,7 @@ For developers, the project is structured to allow easy modification of frontend
 * **Use:** Provides a direct communication channel for support or suggestions.
 
 ---
+
 
 ## 🤝 Contributing
 
